@@ -11,6 +11,8 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <cucumber.version>4.3.0</cucumber.version>
+        <bonigarcia.version>4.2.2</bonigarcia.version>
+        <picocontainer.version>1.2.5</picocontainer.version>
         <junit>4.12</junit>
     </properties>
     <dependencies>
@@ -47,6 +49,16 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>${picocontainer.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${bonigarcia.version}</version>
         </dependency>
     </dependencies>
 

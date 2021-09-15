@@ -5,7 +5,10 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty", "html:target/cucumber"})
-public class RunnerTest{
+@CucumberOptions(plugin = {"pretty", "html:target/cucumber"},
+        features = {"src/test/resources/features"},
+        tags = "@chrome",
+        glue = "com.challenge")
+public class RunnerTest {
 
 }
