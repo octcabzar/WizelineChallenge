@@ -20,6 +20,7 @@ public abstract class SwagLabsParentPage<T extends SwagLabsParentPage<T>> extend
     protected void load() {
 
     }
+
     protected WebDriver driver;
     protected UtilityClass tools;
 }

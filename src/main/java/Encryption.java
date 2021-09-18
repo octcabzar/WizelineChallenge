@@ -1,5 +1,3 @@
-package com.challenge.utils;
-
 import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.Cipher;

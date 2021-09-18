@@ -51,7 +51,7 @@ public class ConfigSteps {
         UtilityClass.getInstance(driver);
     }
 
-    @After("@desktop")
+    @After("@challenge")
     public void writeReport(){
         environment.getDriver().close();
     }
